@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import Button from './Button';
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,16 @@ function App() {
       </header>
     </div>
   );
+} */
+
+function App() {
+  return<Fragment>
+    <div>welcome</div>
+    <div>To my site</div>
+    <Button title="Big"/>
+    <Button title='small'/>
+
+  </Fragment>
 }
 
 export default App;

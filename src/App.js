@@ -2,6 +2,7 @@
 import './App.css';
 import { Fragment } from 'react';
 import Button from './Button';
+import Home from './Home';
 
 /* function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
   return<Fragment>
     <div>welcome</div>
     <div>To my site</div>
+    <Home/>
     <Button title="Big"/>
     <Button title='small'/>
 
